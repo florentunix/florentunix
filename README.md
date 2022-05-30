@@ -1,8 +1,7 @@
 Hello :smile: I'm a JavaScript Developper
-
-<center>
-<img src="https://raw.githubusercontent.com/gist/patevs/b007a0e98fb216438d4cbf559fac4166/raw/88f20c9d749d756be63f22b09f3c4ac570bc5101/programming.gif"/>
+<img src="https://raw.githubusercontent.com/gist/patevs/b007a0e98fb216438d4cbf559fac4166/raw/88f20c9d749d756be63f22b09f3c4ac570bc5101/programming.gif" width="400" height='200'/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=florentunix&layout=compact">
+
 <hr/>
 <div>
     <img align="center" src="https://cdn.icon-icons.com/icons2/112/PNG/512/python_18894.png" width="40" height='40'>
@@ -22,4 +21,3 @@ Hello :smile: I'm a JavaScript Developper
     <img src="https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_sqlite_icon_130153.png" width="40" height='40' />
 </div>
 <hr/>
-</center>
