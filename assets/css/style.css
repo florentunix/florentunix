@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Schoolbell', arial, serif;
+    /* background-color: #34495e; */
+    background: url("https://img.freepik.com/free-photo/blue-smooth-wall-textured-background_53876-106133.jpg?t=st=1654887812~exp=1654888412~hmac=543d374bcb5e73ef54bd5ef196da428731525fbe18001f6c4041ea5eb6596e78&w=996");
+    color: #fff;
+    height: 100vh;
+    width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 80px 1fr;
+}
+
+nav{
+    border-bottom: 1px solid #fff;
+    font-size: 20px;
+    padding: 0 10px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: inset 0px 0 20px   #fff;
+}
+.logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+menu{
+    float: right;
+    height: 100%;
+    width: 20%;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+menu *{
+    border-bottom-width: 10px;
+    border-bottom: 5px solid transparent;
+    transition: all ease 1.5s;
+    cursor: pointer;
+}
+
+
+menu *:hover {
+    border-bottom: 5px solid #fff;
+}
+.scotch-container {
+    height: 530px;
+    width: 830px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.scotch-container span{
+    height: 60px;
+    width: 140px;
+    background-color: #f5cd79;
+}
+
+.picture-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.picture-border{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-left{
+    transform: rotate(-40deg);
+    position: absolute;
+    top: -5px;
+    left: -40px;
+}
+.top-right{
+    transform: rotate(40deg);
+    position: absolute;
+    top: -5px;
+    right: -40px;
+}
+.bottom-left{
+    transform: rotate(40deg);
+    position: absolute;
+    bottom: -5px;
+    left: -40px;
+}
+.bottom-right{
+    transform: rotate(-40deg);
+    position: absolute;
+    bottom: -5px;
+    right: -40px;
+}
+
+.user-description{
+    width: 830px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    padding: 0 80px 0 80px;
+    justify-content: space-around;
+}
+.location-conatiner{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    transition: all ease 1.5s;
+}
